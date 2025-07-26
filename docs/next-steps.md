@@ -25,7 +25,7 @@ Implement the ICP canister backend logic using **Motoko** or **Rust** to handle:
 - 🔍 Querying for potential matches
 - 📜 Logging and returning detection events
 
-> ⬜ Decide between Motoko or Rust for smart contract language.
+> ⬜ Motoko for smart contract language.
 
 ---
 

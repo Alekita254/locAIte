@@ -1,26 +1,21 @@
 {
   "canisters": {
-    "locate_backend_backend": {
-      "main": "src/locate_backend_backend/main.mo",
+    "locate_backend": {
+      "main": "src/locate_backend/main.mo",
       "type": "motoko"
-    },
-    "locate_backend_frontend": {
-      "dependencies": [
-        "locate_backend_backend"
-      ],
-      "source": [
-        "src/locate_backend_frontend/dist"
-      ],
-      "type": "assets",
-      "workspace": "locate_backend_frontend"
     }
   },
+  "dfx": "0.18.0",
   "defaults": {
     "build": {
-      "args": "",
       "packtool": ""
     }
   },
-  "output_env_file": ".env",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:4943",
+      "type": "ephemeral"
+    }
+  },
   "version": 1
 }

@@ -22,9 +22,9 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="case/:id" element={<CaseDetails />} />
-            <Route path="add-case" element={<AddCase />} />
-            <Route path="pricing" element={<Pricing />} />
+            <Route path="/case/:id" element={<CaseDetails />} />
+            <Route path="/add-case" element={<AddCase />} />
+            <Route path="/pricing" element={<Pricing />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
